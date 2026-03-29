@@ -1,0 +1,42 @@
+{
+    "empresa": "LuegoPago",
+    "aliado_principal": "Sistecrédito",
+    "contexto": "Post-compra y Entrega de Producto",
+    "preguntas": [
+        {
+            "id": 1,
+            "tipo": "escala_1_5",
+            "texto": "Pregunta uno. Pensando en tu experiencia navegando en la plataforma de LuegoPago, ¿qué tan fácil fue encontrar y comprar lo que buscabas del uno al cinco? Siendo uno muy difícil y cinco muy fácil.",
+            "file_id": "pregunta_1_ux"
+        },
+        {
+            "id": 2,
+            "tipo": "abc",
+            "texto": "Pregunta dos. Sobre el tiempo de entrega de tu pedido, ¿dirías que fue: A, más rápido de lo que esperabas; B, en el tiempo justo; o C, se demoró más de la cuenta?",
+            "file_id": "pregunta_2_logistica"
+        },
+        {
+            "id": 3,
+            "tipo": "opciones_3",
+            "texto": "Pregunta tres. Si tuvieras que elegir lo que más te gustó de comprar con nosotros, ¿sería la facilidad del crédito, la variedad de productos o la atención al cliente?",
+            "file_id": "pregunta_3_preferencia"
+        },
+        {
+            "id": 4,
+            "tipo": "escala_1_5",
+            "texto": "Pregunta cuatro. En general, y basándote en esta última compra, ¿qué tan probable es que vuelvas a usar LuegoPago para tus próximos antojos? Cuéntame del uno al cinco, donde cinco es seguro que sí.",
+            "file_id": "pregunta_4_fidelidad"
+        },
+        {
+            "id": 5,
+            "tipo": "abierta_mejoras",
+            "texto": "Pregunta cinco. Por último, nos encantaría escucharte. Si pudieras cambiar o mejorar algo en LuegoPago para que tu experiencia fuera perfecta, ¿qué sería?",
+            "file_id": "pregunta_5_mejoras"
+        }
+    ],
+    "voz_config": {
+        "nombre": "Isabel",
+        "estilo": "Empático-Comercial",
+        "modelo": "eleven_multilingual_v2"
+    }
+}

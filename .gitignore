@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Voice AI Survey Custom Ignores ---
+# Ignorar los audios generados (el usuario debe generarlos con su propia cuenta)
+audio_assets/*.mp3
+
+# Ignorar archivos de configuración local
+.env
+.vscode/
